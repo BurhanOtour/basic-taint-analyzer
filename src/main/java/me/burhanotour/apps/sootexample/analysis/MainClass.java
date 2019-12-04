@@ -2,6 +2,7 @@ package me.burhanotour.apps.sootexample.analysis;
 
 import java.util.Map;
 
+
 import me.burhanotour.apps.sootexample.reporting.Reporter;
 import soot.Body;
 import soot.BodyTransformer;
@@ -38,7 +39,7 @@ public class MainClass {
 
 		// Run Soot
 		Main.main(
-				new String[] { "-pp", "-process-dir", "./targetsBin", "-src-prec", "class", "-output-format", "none" });
+				new String[] { "-pp", "-process-dir", "targetsBin", "-src-prec", "class", "-output-format", "none" });
 	}
 
 }

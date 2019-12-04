@@ -1,4 +1,4 @@
-package analyzeMe;
+package me.burhanotour.apps.sootexample.analyzeMe;
 
 public class TargetClass1 {
 
